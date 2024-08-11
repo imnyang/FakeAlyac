@@ -27,6 +27,16 @@ def on_clicked(icon, item):
         webbrowser.open('ms-settings:')
     elif item.text == '제품정보':
         webbrowser.open('https://altools.co.kr/product/ALYAC')
+    elif item.text == '업데이트':
+        webbrowser.open('ms-settings:windowsupdate-action')
+    elif item.text == 'PC최적화':
+        webbrowser.open('cleanmgr')
+    elif item.text == '알약 열기':
+        webbrowser.open('windowsdefender://open')
+    elif item.text == '빠른검사':
+        webbrowser.open('windowsdefender://quickscan')
+    elif item.text == '정밀검사':
+        webbrowser.open('windowsdefender://fullscan')
     else:
         webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 
